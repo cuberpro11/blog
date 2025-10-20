@@ -1,0 +1,7 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'No Lag Mind'
+theme = 'PaperMod'
+
+[params]
+  disableSpecial1stPost = true

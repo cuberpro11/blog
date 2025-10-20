@@ -1,42 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Posts on No Lag Mind</title>
-    <link>https://example.org/posts/</link>
-    <description>Recent content in Posts on No Lag Mind</description>
-    <generator>Hugo -- 0.151.2</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My Second Post</title>
-      <link>https://example.org/posts/second_post/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/posts/second_post/</guid>
-      <description>&lt;p&gt;this is my seccond one&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My Third Post</title>
-      <link>https://example.org/posts/third_post/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.org/posts/third_post/</guid>
-      <description>&lt;p&gt;this is my third post to test things out.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Welcome to My Blog</title>
-      <link>https://example.org/posts/first_post/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.org/posts/first_post/</guid>
-      <description>&lt;p&gt;Welcome! This is my first post - and a promise. I&amp;rsquo;ll be publishing here every day with small, useful snippets of knowledge.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on No Lag Mind</title><link>https://nolagmind.com/posts/</link><description>Recent content in Posts on No Lag Mind</description><generator>Hugo -- 0.151.2</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://nolagmind.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>My Second Post</title><link>https://nolagmind.com/posts/second_post/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://nolagmind.com/posts/second_post/</guid><description>&lt;p&gt;this is my seccond one&lt;/p&gt;</description></item><item><title>My Third Post</title><link>https://nolagmind.com/posts/third_post/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://nolagmind.com/posts/third_post/</guid><description>&lt;p&gt;this is my third post to test things out.&lt;/p&gt;</description></item><item><title>Welcome to My Blog</title><link>https://nolagmind.com/posts/first_post/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://nolagmind.com/posts/first_post/</guid><description>&lt;p&gt;Welcome! This is my first post - and a promise. I&amp;rsquo;ll be publishing here every day with small, useful snippets of knowledge.&lt;/p&gt;
 &lt;p&gt;What you’ll find:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Pillars: programming, game dev, keyboards/typing, learning systems, and AI.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;programming&#34;&gt;Programming&lt;/h3&gt;
+&lt;h3 id="programming"&gt;Programming&lt;/h3&gt;
 &lt;p&gt;I like to build things, from small tools and automation scripts to entire games or course websites. I plan to share the process and ideas that go into making these tools here with you.&lt;/p&gt;
-&lt;h3 id=&#34;game-development&#34;&gt;Game development&lt;/h3&gt;
-&lt;p&gt;I’m currently building two indie games and have always found interest in coding something that I can actually play. So I would like to share that passion with you, weather it is a small update or reworking all the art.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+&lt;h3 id="game-development"&gt;Game development&lt;/h3&gt;
+&lt;p&gt;I’m currently building two indie games and have always found interest in coding something that I can actually play. So I would like to share that passion with you, weather it is a small update or reworking all the art.&lt;/p&gt;</description></item></channel></rss>

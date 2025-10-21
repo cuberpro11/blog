@@ -2,17 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on No Lag Mind</title>
-    <link>https://nolagmind.com/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on No Lag Mind</description>
     <generator>Hugo -- 0.151.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://nolagmind.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The No-Click Principle: Why Your Mouse is Slowing You Down (and How to Fix It)</title>
+      <link>http://localhost:1313/posts/seccond_post/</link>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/seccond_post/</guid>
+      <description>&lt;h3 id=&#34;what-is-the-no-click-principle&#34;&gt;What is the no-click principle?&lt;/h3&gt;
+&lt;p&gt;It is the idea that taking your hand of the keyboard to reach for the mouse will significantly reduce your productivity. This is because of the time and context switch costs:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;The Time Cost:&lt;/strong&gt; Every reach for the mouse is a few seconds lost.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The Context Switch Cost:&lt;/strong&gt; More critically, you interrupt your &lt;strong&gt;flow state&lt;/strong&gt;. You have to visually locate and track the cursor, and when you return to the keyboard, you have to mentally and physically reset your typing position.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Even though it might only take a couple seconds to do all the above and then get back to typing, if you add up those few seconds for all the times it happens in a day, week, or month, it can start to become hours of time that you could have otherwise spent working or thinking.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Welcome to My Blog</title>
-      <link>https://nolagmind.com/posts/first_post/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://nolagmind.com/posts/first_post/</guid>
+      <link>http://localhost:1313/posts/first_post/</link>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/first_post/</guid>
       <description>&lt;p&gt;Welcome! This is my first post - and a promise. I&amp;rsquo;ll be publishing here every day with small, useful snippets of knowledge.&lt;/p&gt;
 &lt;p&gt;What you’ll find:&lt;/p&gt;
 &lt;ul&gt;

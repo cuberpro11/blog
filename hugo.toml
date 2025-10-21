@@ -17,6 +17,9 @@ theme = 'PaperMod'
 [params]
   disableSpecial1stPost = true
 
+[params.analytics]
+  google = { id = "G-3E8SE7JMCD" }
+
 [params.homeInfoParams]
   Title = "Learn to work at the speed of thought"
   Content = "Welcome to No Lag Mind - where we explore the intersection of technology, productivity, and human potential."

@@ -3,5 +3,16 @@ languageCode = 'en-us'
 title = 'No Lag Mind'
 theme = 'PaperMod'
 
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 20
+
 [params]
   disableSpecial1stPost = true

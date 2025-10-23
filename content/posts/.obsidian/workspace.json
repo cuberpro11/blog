@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c1057801385ee298",
+        "id": "1b389cd48c1a2b58",
         "type": "tabs",
         "children": [
           {
-            "id": "435b55fbf865e62a",
+            "id": "5e89308e6740c84e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "third_post.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "third_post"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "eded7667de962807",
@@ -165,8 +170,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "435b55fbf865e62a",
+  "active": "5e89308e6740c84e",
   "lastOpenFiles": [
+    "llm_prompt_example.md",
+    "third_post.md",
     "seccond_post.md"
   ]
 }

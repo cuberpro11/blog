@@ -23,6 +23,15 @@ theme = 'PaperMod'
 [params.analytics]
   google = { id = "G-3E8SE7JMCD" }
 
+[params.assets]
+  favicon = "favicon.ico"
+  favicon16x16 = "favicon-16x16.png"
+  favicon32x32 = "favicon-32x32.png"
+  apple_touch_icon = "apple-touch-icon.png"
+  safari_pinned_tab = "safari-pinned-tab.svg"
+  theme_color = "#2e2e33"
+  msapplication_TileColor = "#2e2e33"
+
 [params.homeInfoParams]
   Title = "Learn to work at the speed of thought"
   Content = "Welcome to No Lag Mind - where we explore the intersection of technology, productivity, and human potential."

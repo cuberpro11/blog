@@ -2,6 +2,7 @@ baseURL = 'https://nolagmind.com/'
 languageCode = 'en-us'
 title = 'No Lag Mind'
 theme = 'PaperMod'
+description = 'Learn to work at the speed of thought - exploring technology, productivity, and human potential.'
 
 [menu]
   [[menu.main]]
@@ -31,7 +32,18 @@ theme = 'PaperMod'
   safari_pinned_tab = "safari-pinned-tab.svg"
   theme_color = "#2e2e33"
   msapplication_TileColor = "#2e2e33"
-  webmanifest = "site.webmanifest"
+  og_image = "og-image.png"
+
+[params.social]
+  twitter = "nolagmind"
+  facebook = "nolagmind"
+
+[params.cover]
+  image = "og-image.png"
+  relative = false
+
+[params.schema]
+  publisherType = "Organization"
 
 [params.homeInfoParams]
   Title = "Learn to work at the speed of thought"

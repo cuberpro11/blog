@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Natural Language Calculator</title>
+
+    <style>
+
+        * {
+
+            margin: 0;
+
+            padding: 0;
+
+            box-sizing: border-box;
+
+        }
+
+        
+        html {
+
+            height: 100%;
+
+            overflow: hidden;
+
+        }
+
+
+
+        :root {
+
+            --bg-primary: #181a1b;
+
+            --text-primary: #e8e6e3;
+
+            --text-secondary: #a8a095;
+
+            --accent: #0ea5e9;
+
+            --glow: rgba(14, 165, 233, 0.2);
+
+        }
+
+
+
+        @media (prefers-color-scheme: light) {
+
+            :root {
+
+                --bg-primary: #ffffff;
+
+                --text-primary: #202224;
+
+                --text-secondary: #6b7280;
+
+                --accent: #0284c7;
+
+                --glow: rgba(2, 132, 199, 0.15);
+
+            }
+
+        }
+
+
+
+        body {
+
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+
+            display: flex;
+
+            flex-direction: column;
+
+            height: 100vh;
+
+            margin: 0;
+
+            background: var(--bg-primary);
+
+            color: var(--text-primary);
+
+            overflow: hidden;
+
+            transition: background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1), color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+
+        }
+
+
+
+        .container {
+
+            display: flex;
+
+            flex-direction: column;
+
+            height: 100vh;
+
+            padding: 0;
+
+            animation: fadeIn 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+
+            overflow: hidden;
+
+        }
+
+
+
+        .title-section {
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            padding: 3rem 2rem 2rem;
+
+            position: relative;
+
+            animation: slideUp 0.7s cubic-bezier(0.4, 0, 0.2, 1) 0s both;
+
+        }
+
+
+
+        h1 {
+
+            font-size: clamp(2rem, 5vw, 3.5rem);
+
+            font-weight: 300;
+
+            letter-spacing: -0.04em;
+
+            color: var(--text-primary);
+
+            opacity: 0.9;
+
+            background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent) 100%);
+
+            -webkit-background-clip: text;
+
+            -webkit-text-fill-color: transparent;
+
+            background-clip: text;
+
+        }
+
+
+
+        .input-section {
+
+            flex: 1;
+
+            display: flex;
+
+            align-items: flex-start;
+
+            justify-content: center;
+
+            padding: 4rem 2rem 2rem;
+
+            position: relative;
+
+            overflow: hidden;
+
+            min-height: 0;
+
+        }
+
+
+
+        #input {
+
+            width: 100%;
+
+            max-width: 800px;
+
+            padding: 2rem;
+
+            border: none;
+
+            border-bottom: 2px solid transparent;
+
+            font-size: clamp(1.5rem, 4vw, 3rem);
+
+            background: transparent;
+
+            color: var(--text-primary);
+
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+
+            font-family: inherit;
+
+            font-weight: 300;
+
+            text-align: center;
+
+            letter-spacing: -0.02em;
+
+            outline: none;
+
+            overflow: hidden;
+
+            word-break: break-word;
+
+        }
+
+        
+        #input:focus {
+
+            border-bottom-color: var(--accent);
+
+            box-shadow: 0 4px 20px var(--glow);
+
+        }
+
+        
+        #input:empty:before {
+
+            content: attr(data-placeholder);
+
+            color: var(--text-secondary);
+
+            opacity: 0.5;
+
+            font-weight: 300;
+
+        }
+
+        
+        .operation-highlight {
+
+            color: var(--accent);
+
+            font-weight: 400;
+
+        }
+
+
+
+        .result-section {
+
+            flex: 1;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            padding: 2rem;
+
+            position: relative;
+
+        }
+
+
+
+        #result {
+
+            font-size: clamp(2rem, 6vw, 5rem);
+
+            font-weight: 300;
+
+            color: var(--text-secondary);
+
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+
+            letter-spacing: -0.03em;
+
+            text-align: center;
+
+            opacity: 0.6;
+
+        }
+
+
+
+        #result.valid {
+
+            color: var(--accent);
+
+            opacity: 1;
+
+            font-weight: 400;
+
+            transform: scale(1.02);
+
+            text-shadow: 0 0 30px var(--glow);
+
+        }
+
+
+
+        #result.error {
+
+            color: #ef4444;
+
+            font-size: clamp(1.25rem, 3vw, 2rem);
+
+            opacity: 0.8;
+
+        }
+
+
+
+        @keyframes fadeIn {
+
+            from {
+
+                opacity: 0;
+
+                transform: translateY(20px);
+
+            }
+
+            to {
+
+                opacity: 1;
+
+                transform: translateY(0);
+
+            }
+
+        }
+
+
+
+        @keyframes slideUp {
+
+            from {
+
+                opacity: 0;
+
+                transform: translateY(30px);
+
+            }
+
+            to {
+
+                opacity: 1;
+
+                transform: translateY(0);
+
+            }
+
+        }
+
+
+
+        .input-section {
+
+            animation: slideUp 0.7s cubic-bezier(0.4, 0, 0.2, 1) 0.15s both;
+
+        }
+
+
+
+        .result-section {
+
+            animation: slideUp 0.7s cubic-bezier(0.4, 0, 0.2, 1) 0.25s both;
+
+        }
+
+
+
+        @media (max-width: 640px) {
+
+            .title-section {
+
+                padding: 2rem 1rem 1.5rem;
+
+            }
+
+            
+
+            .input-section,
+
+            .result-section {
+
+                padding: 2rem 1rem;
+
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="title-section">
+
+            <h1>Text Calculator</h1>
+
+        </div>
+
+        
+
+        <div class="input-section">
+
+            <div id="input" contenteditable="true" data-placeholder="one seven two minus twenty" autocomplete="off"></div>
+
+        </div>
+
+        
+
+        <div class="result-section">
+
+            <div id="result"></div>
+
+        </div>
+
+    </div>
+
+
+
+    <script>
+
+        const input = document.getElementById('input');
+
+        const result = document.getElementById('result');
+
+        
+        // Operation patterns for highlighting
+
+        const operationPatterns = [
+
+            { pattern: /\bplus\b/gi, class: 'operation-highlight' },
+
+            { pattern: /\bp\b/gi, class: 'operation-highlight' },
+
+            { pattern: /\bminus\b/gi, class: 'operation-highlight' },
+
+            { pattern: /\bm\b/gi, class: 'operation-highlight' },
+
+            { pattern: /\btimes\b/gi, class: 'operation-highlight' },
+
+            { pattern: /\bt\b/gi, class: 'operation-highlight' },
+
+            { pattern: /\bdivided by\b/gi, class: 'operation-highlight' },
+
+            { pattern: /\bd\b/gi, class: 'operation-highlight' },
+
+            { pattern: /\bopen parenthesis\b/gi, class: 'operation-highlight' },
+
+            { pattern: /\bop\b/gi, class: 'operation-highlight' },
+
+            { pattern: /\bclose parenthesis\b/gi, class: 'operation-highlight' },
+
+            { pattern: /\bcp\b/gi, class: 'operation-highlight' },
+
+            { pattern: /\bsquare root of\b/gi, class: 'operation-highlight' },
+
+            { pattern: /\brd\b/gi, class: 'operation-highlight' },
+
+            { pattern: /\bsqrt\b/gi, class: 'operation-highlight' },
+
+            { pattern: /\bto the power of\b/gi, class: 'operation-highlight' },
+
+            { pattern: /\bpo\b/gi, class: 'operation-highlight' }
+
+        ];
+
+
+
+        // Helper function to convert word numbers to digits
+
+        function wordToNumber(word) {
+
+            const wordMap = {
+
+                'zero': '0', 'one': '1', 'two': '2', 'three': '3', 'four': '4',
+
+                'five': '5', 'six': '6', 'seven': '7', 'eight': '8', 'nine': '9'
+
+            };
+
+            return wordMap[word] || word;
+
+        }
+
+        
+        function highlightOperations() {
+
+            const sel = window.getSelection();
+
+            let cursorOffset = 0;
+
+            
+            // Save cursor position
+
+            if (sel.rangeCount > 0 && input.textContent.length > 0) {
+
+                try {
+
+                    const range = sel.getRangeAt(0);
+
+                    const preCaretRange = range.cloneRange();
+
+                    preCaretRange.selectNodeContents(input);
+
+                    preCaretRange.setEnd(range.endContainer, range.endOffset);
+
+                    cursorOffset = preCaretRange.toString().length;
+
+                } catch (e) {
+
+                    cursorOffset = input.textContent.length;
+
+                }
+
+            } else {
+
+                cursorOffset = input.textContent.length;
+
+            }
+
+            
+            const text = input.textContent;
+
+            let highlighted = text;
+
+            
+            // Apply highlighting (process longer patterns first to avoid conflicts)
+
+            const sortedPatterns = [...operationPatterns].sort((a, b) => {
+
+                const aLen = a.pattern.source.length;
+
+                const bLen = b.pattern.source.length;
+
+                return bLen - aLen;
+
+            });
+
+            
+            sortedPatterns.forEach(({ pattern, class: className }) => {
+
+                highlighted = highlighted.replace(pattern, (match) => {
+
+                    return `<span class="${className}">${match}</span>`;
+
+                });
+
+            });
+
+            
+            if (input.innerHTML !== highlighted) {
+
+                input.innerHTML = highlighted;
+
+                
+                // Restore cursor position
+
+                const walker = document.createTreeWalker(
+
+                    input,
+
+                    NodeFilter.SHOW_TEXT,
+
+                    null
+
+                );
+
+                let currentOffset = 0;
+
+                let targetNode = null;
+
+                let targetOffset = 0;
+
+                
+                while (walker.nextNode()) {
+
+                    const node = walker.currentNode;
+
+                    const nodeLength = node.textContent.length;
+
+                    
+                    if (currentOffset + nodeLength >= cursorOffset) {
+
+                        targetNode = node;
+
+                        targetOffset = cursorOffset - currentOffset;
+
+                        break;
+
+                    }
+
+                    currentOffset += nodeLength;
+
+                }
+
+                
+                if (targetNode) {
+
+                    const range = document.createRange();
+
+                    const sel = window.getSelection();
+
+                    range.setStart(targetNode, Math.min(targetOffset, targetNode.textContent.length));
+
+                    range.setEnd(targetNode, Math.min(targetOffset, targetNode.textContent.length));
+
+                    sel.removeAllRanges();
+
+                    sel.addRange(range);
+
+                }
+
+            }
+
+        }
+
+        
+        function updateResult() {
+
+            let expression = input.textContent.toLowerCase().trim();
+
+            
+
+            if (!expression) {
+
+                result.textContent = '';
+
+                result.className = '';
+
+                return;
+
+            }
+
+
+
+            try {
+
+                // Replace operations with symbols
+
+                expression = expression
+
+                    .replace(/\bminus\b/g, '-')
+
+                    .replace(/\bm\b/g, '-')
+
+                    .replace(/\bplus\b/g, '+')
+
+                    .replace(/\bp\b/g, '+')
+
+                    .replace(/\btimes\b/g, '*')
+
+                    .replace(/\bt\b/g, '*')
+
+                    .replace(/\bdivided by\b/g, '/')
+
+                    .replace(/\bd\b/g, '/')
+
+                    .replace(/\bopen parenthesis\b/g, '(')
+
+                    .replace(/\bop\b/g, '(')
+
+                    .replace(/\bclose parenthesis\b/g, ')')
+
+                    .replace(/\bcp\b/g, ')')
+
+                    .replace(/\bsquare root of\b/g, 'Math.sqrt')
+
+                    .replace(/\brd\b/g, 'Math.sqrt')
+
+                    .replace(/\bsqrt\b/g, 'Math.sqrt')
+
+                    .replace(/\bto the power of|po\b/g, '**');
+
+
+
+                // Split the input into words and process each word
+
+                const words = expression.split(/\s+/);
+
+                let processedExpression = '';
+
+                let currentNumber = '';
+
+
+
+                words.forEach(word => {
+
+                    if (['+', '-', '*', '/', 'Math.sqrt', '**', '(', ')'].includes(word)) {
+
+                        processedExpression += currentNumber + ' ' + word + ' ';
+
+                        currentNumber = '';
+
+                    } else {
+
+                        currentNumber += wordToNumber(word);
+
+                    }
+
+                });
+
+
+
+                processedExpression += currentNumber;
+
+                processedExpression = processedExpression.trim().replace(/\s+/g, '');
+
+
+
+                // Evaluate the expression
+
+                const output = eval(processedExpression);
+
+                
+
+                if (typeof output === 'number' && !isNaN(output)) {
+
+                    result.textContent = output;
+
+                    result.className = 'valid';
+
+                } else {
+
+                    throw new Error('Invalid result');
+
+                }
+
+            } catch (e) {
+
+                result.textContent = 'Invalid expression';
+
+                result.className = 'error';
+
+            }
+
+        }
+
+
+
+        input.addEventListener('input', () => {
+
+            highlightOperations();
+
+            updateResult();
+
+        });
+
+        
+        input.addEventListener('keydown', (e) => {
+
+            // Prevent Enter key from creating new lines
+
+            if (e.key === 'Enter') {
+
+                e.preventDefault();
+
+            }
+
+        });
+
+        
+        // Automatically focus on the input field when the page loads
+
+        document.addEventListener('DOMContentLoaded', () => {
+
+            input.focus();
+
+        });
+
+    </script>
+
+</body>
+
+</html>
+

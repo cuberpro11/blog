@@ -14,7 +14,7 @@
       <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/fifth_post/</guid>
       <description>&lt;h3 id=&#34;why-typing-speed-matters-everywhere&#34;&gt;Why typing speed matters everywhere&lt;/h3&gt;
-&lt;p&gt;When you type at a high words-per-minute rate, you unlock the ability to work at the speed of thought. Your fingers move fluidly across the keyboard, and your ideas flow onto the screen without interruption. But typing speed alone isn&amp;rsquo;t enough. Without keyboard shortcuts, you&amp;rsquo;re constantly breaking that flow to reach for your mouse or trackpad to navigate, select, copy, or paste—every interruption kills your momentum.&lt;/p&gt;</description>
+&lt;p&gt;I mentioned the idea of working at the speed of thought, where you can think of what you need to do and it can just happen, almost like your laptop is controlled by your mind. Besides all the apps that you can use and all the settings that you can configure to help you accomplish this work style, the one thing that connects all of the tools is that you use is, your keyboard. This means that the more fluent with your keyboard you are and the faster that you can type, the more things and the quicker you can get things done.&lt;/p&gt;</description>
     </item>
     <item>
       <title>From Flat to Fast: The Science of Full‑Travel Keyboards Top Typists Rely On</title>
@@ -70,6 +70,20 @@
       <guid>http://localhost:1313/about/</guid>
       <description>&lt;p&gt;Hi there! I&amp;rsquo;m a 14-year-old who absolutely loves making things and playing with words. Whether I&amp;rsquo;m coding up a new project, crafting a story, or building something cool with my hands, I&amp;rsquo;m always excited to create and share what I&amp;rsquo;ve learned along the way.&lt;/p&gt;
 &lt;p&gt;I believe that the best way to learn is by doing, and the best way to grow is by sharing. That&amp;rsquo;s why I started this blog - to document my journey of discovery and hopefully inspire others to start their own creative adventures.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Natural Language Calculator</title>
+      <link>http://localhost:1313/projects/natural-language-calculator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/natural-language-calculator/</guid>
+      <description>&lt;p&gt;This calculator allows you to type math at the same speed you can type words. Instead of having to search for all the numbers and characters and then type them out slowly you can now type at your normal words per minute, using only the letters only keyboard to do all your math calculations and a more simple fluid. and no lag way than ever before. And if you are used to those numbers you can still use those numbers and you can mix and match between the numbers and letters that you want to use in order to do your math the way you want to.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/</guid>
+      <description>&lt;p&gt;Explore my collection of projects and tools.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

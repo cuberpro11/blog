@@ -1,0 +1,79 @@
+{{- define "main" }}
+
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>
+    {{ .Title }}
+  </h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description | markdownify }}
+  </div>
+  {{- end }}
+</header>
+
+{{- if .Content }}
+<div class="post-content">
+  {{- if not (.Param "disableAnchoredHeadings") }}
+  {{- partial "anchored_headings.html" .Content -}}
+  {{- else }}{{ .Content }}{{ end }}
+</div>
+{{- end }}
+
+<div class="projects-grid">
+  {{- $projects := where site.RegularPages "Section" "projects" }}
+  {{- $projects = where $projects "Params.draft" "!=" true }}
+  {{- range sort $projects "Title" }}
+      <article class="project-card">
+        <a href="{{ .Permalink }}" class="project-card-link">
+          <h2 class="project-card-title">{{ .Title }}</h2>
+        </a>
+      </article>
+    {{- end }}
+</div>
+
+<style>
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--theme);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.project-card-link {
+  display: block;
+  padding: 2rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--primary);
+}
+
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+{{- end }}{{/* end main */}}
+

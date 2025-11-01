@@ -11,6 +11,11 @@ description = 'Learn to work at the speed of thought - exploring technology, pro
     weight = 10
 
   [[menu.main]]
+    name = "Projects"
+    url = "/project/"
+    weight = 15
+
+  [[menu.main]]
     name = "About"
     url = "/about/"
     weight = 20

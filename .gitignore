@@ -20,5 +20,8 @@ Thumbs.db
 *.swp
 *.swo
 
+# Obsidian editor files
+.obsidian/
+
 # Logs
 *.log

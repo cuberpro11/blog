@@ -2,43 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>No Lag Mind</title>
-    <link>http://localhost:1313/</link>
+    <link>https://nolagmind.com/</link>
     <description>Recent content on No Lag Mind</description>
     <generator>Hugo -- 0.151.2</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 24 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nolagmind.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mastering Keyboard Shortcuts: How to Work at the Speed of Thought</title>
-      <link>http://localhost:1313/posts/fifth_post/</link>
+      <link>https://nolagmind.com/posts/fifth_post/</link>
       <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/fifth_post/</guid>
+      <guid>https://nolagmind.com/posts/fifth_post/</guid>
       <description>&lt;h3 id=&#34;why-typing-speed-matters-everywhere&#34;&gt;Why typing speed matters everywhere&lt;/h3&gt;
 &lt;p&gt;I mentioned the idea of working at the speed of thought, where you can think of what you need to do and it can just happen, almost like your laptop is controlled by your mind. Besides all the apps that you can use and all the settings that you can configure to help you accomplish this work style, the one thing that connects all of the tools is that you use is, your keyboard. This means that the more fluent with your keyboard you are and the faster that you can type, the more things and the quicker you can get things done.&lt;/p&gt;</description>
     </item>
     <item>
       <title>From Flat to Fast: The Science of Full‑Travel Keyboards Top Typists Rely On</title>
-      <link>http://localhost:1313/posts/fourth_post/</link>
+      <link>https://nolagmind.com/posts/fourth_post/</link>
       <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/fourth_post/</guid>
+      <guid>https://nolagmind.com/posts/fourth_post/</guid>
       <description>&lt;h3 id=&#34;what-keyboards-can-allow-you-to-type-at-300-wpm&#34;&gt;What keyboards can allow you to type at 300 wpm?&lt;/h3&gt;
 &lt;p&gt;Besides the insane amount of skill and practice that it takes to be able to type that fast, which keyboard you have could effect how fast you can type a lot. This is why all the top typists carefully pick, mod, and use every keyboard that they get.&lt;/p&gt;
 &lt;p&gt;Every mechanical keyboard has three main comments that effect the typing experience: switches, keycaps, and layout.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Perfect AI Prompt Formula: How to Get Exactly What You Want Every Time</title>
-      <link>http://localhost:1313/posts/third_post/</link>
+      <link>https://nolagmind.com/posts/third_post/</link>
       <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/third_post/</guid>
+      <guid>https://nolagmind.com/posts/third_post/</guid>
       <description>&lt;h3 id=&#34;why-you-should-take-the-time-to-learn-to-prompt&#34;&gt;Why you should take the time to learn to prompt&lt;/h3&gt;
 &lt;p&gt;When most people are writing a prompt to an LLM they only write a sentence or two. While this is straight forward, it normally leads to generic results that sometimes aren&amp;rsquo;t even helpful.&lt;/p&gt;
 &lt;p&gt;The solution to this is to take the time to write a nice prompt that is catered to your certain use case. When writing a good prompt there is a specific structure to follow, which both makes it easer to start writing the prompt and for the LLM to understand what you want. By following the five-part formula you can ensure that you will always get a response from the AI that is useful for your specific use case.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The No-Click Principle: Why Your Mouse is Slowing You Down (and How to Fix It)</title>
-      <link>http://localhost:1313/posts/seccond_post/</link>
+      <link>https://nolagmind.com/posts/seccond_post/</link>
       <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/seccond_post/</guid>
+      <guid>https://nolagmind.com/posts/seccond_post/</guid>
       <description>&lt;h3 id=&#34;what-is-the-no-click-principle&#34;&gt;What is the no-click principle?&lt;/h3&gt;
 &lt;p&gt;It is the idea that taking your hand of the keyboard to reach for the mouse will significantly reduce your productivity. This is because of the time and context switch costs:&lt;/p&gt;
 &lt;ul&gt;
@@ -49,9 +49,9 @@
     </item>
     <item>
       <title>Welcome to My Blog</title>
-      <link>http://localhost:1313/posts/first_post/</link>
+      <link>https://nolagmind.com/posts/first_post/</link>
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/first_post/</guid>
+      <guid>https://nolagmind.com/posts/first_post/</guid>
       <description>&lt;p&gt;Welcome! This is my first post - and a promise. I&amp;rsquo;ll be publishing here every day with small, useful snippets of knowledge.&lt;/p&gt;
 &lt;p&gt;What you’ll find:&lt;/p&gt;
 &lt;ul&gt;
@@ -65,24 +65,25 @@
     </item>
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://nolagmind.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://nolagmind.com/about/</guid>
       <description>&lt;p&gt;Hi there! I&amp;rsquo;m a 14-year-old who absolutely loves making things and playing with words. Whether I&amp;rsquo;m coding up a new project, crafting a story, or building something cool with my hands, I&amp;rsquo;m always excited to create and share what I&amp;rsquo;ve learned along the way.&lt;/p&gt;
 &lt;p&gt;I believe that the best way to learn is by doing, and the best way to grow is by sharing. That&amp;rsquo;s why I started this blog - to document my journey of discovery and hopefully inspire others to start their own creative adventures.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Natural Language Calculator</title>
-      <link>http://localhost:1313/projects/natural-language-calculator/</link>
+      <link>https://nolagmind.com/projects/natural-language-calculator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/natural-language-calculator/</guid>
-      <description>&lt;p&gt;This calculator allows you to type math at the same speed you can type words. Instead of having to search for all the numbers and characters and then type them out slowly you can now type at your normal words per minute, using only the letters only keyboard to do all your math calculations and a more simple fluid. and no lag way than ever before. And if you are used to those numbers you can still use those numbers and you can mix and match between the numbers and letters that you want to use in order to do your math the way you want to.&lt;/p&gt;</description>
+      <guid>https://nolagmind.com/projects/natural-language-calculator/</guid>
+      <description>&lt;p&gt;This calculator lets you type math at the same speed you type words. No more hunting for numbers and special characters—just use your normal typing speed and the letter keyboard to perform calculations. The experience is simple, fluid, and lag-free, making math feel as natural as writing.&lt;/p&gt;
+&lt;p&gt;Whether you prefer spelling out numbers (like &amp;ldquo;one seven two&amp;rdquo;) or using traditional digits, this calculator understands both. You can mix and match numbers and words however feels most natural to you, giving you the flexibility to work the way you want.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Projects</title>
-      <link>http://localhost:1313/project/</link>
+      <link>https://nolagmind.com/project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/</guid>
+      <guid>https://nolagmind.com/project/</guid>
       <description>&lt;p&gt;Explore my collection of projects and tools.&lt;/p&gt;</description>
     </item>
   </channel>

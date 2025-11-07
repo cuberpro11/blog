@@ -1,6 +1,6 @@
 ---
 title: My Vision for the Best Note Taking App
-date: 2025-11-7T00:00:00Z
+date: 2025-11-6T00:00:00Z
 draft: false
 ---
 ### What all other note apps are missing

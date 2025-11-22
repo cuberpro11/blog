@@ -2,66 +2,119 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on No Lag Mind</title>
-    <link>https://nolagmind.com/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on No Lag Mind</description>
     <generator>Hugo -- 0.151.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://nolagmind.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Vision for the Best Note Taking App</title>
+      <link>http://localhost:1313/posts/sixth_post/</link>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/sixth_post/</guid>
+      <description>&lt;p&gt;&lt;details &gt;
+  &lt;summary markdown=&#34;span&#34;&gt;Blog Summary - Click to expand&lt;/summary&gt;
+  &lt;p&gt;A critique of existing note apps and a vision for a better tool. Key points:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;The Problem&lt;/strong&gt;: Current apps like Obsidian and Anytype lack dynamic flexibility or keyboard-centric design.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The Vision&lt;/strong&gt;: A fast, keyboard-controlled app where everything is a node.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Features&lt;/strong&gt;: Support for mind maps, kanban, and complex checklists within a markdown environment.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Goal&lt;/strong&gt;: A fluid, local-first tool that adapts to your thought process.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/details&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Mastering Keyboard Shortcuts: How to Work at the Speed of Thought</title>
-      <link>https://nolagmind.com/posts/fifth_post/</link>
+      <link>http://localhost:1313/posts/fifth_post/</link>
       <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://nolagmind.com/posts/fifth_post/</guid>
-      <description>&lt;h3 id=&#34;why-typing-speed-matters-everywhere&#34;&gt;Why typing speed matters everywhere&lt;/h3&gt;
+      <guid>http://localhost:1313/posts/fifth_post/</guid>
+      <description>&lt;p&gt;&lt;details &gt;
+  &lt;summary markdown=&#34;span&#34;&gt;Blog Summary - Click to expand&lt;/summary&gt;
+  &lt;p&gt;How to work at the &amp;lsquo;speed of thought&amp;rsquo; using keyboard shortcuts. Key strategies:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Touch Typing&lt;/strong&gt;: Improving WPM reduces cognitive load and reliance on the mouse.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Workflow Efficiency&lt;/strong&gt;: Minimize errors and posture issues to maintain flow.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Essential Shortcuts&lt;/strong&gt;: A curated list of system, file management, and text editing shortcuts for Mac.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hidden Gems&lt;/strong&gt;: Advanced shortcuts for screenshots, window management, and system control.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/details&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+&lt;h3 id=&#34;why-typing-speed-matters-everywhere&#34;&gt;Why typing speed matters everywhere&lt;/h3&gt;
 &lt;p&gt;I mentioned the idea of working at the speed of thought, where you can think of what you need to do and it can just happen, almost like your laptop is controlled by your mind. Besides all the apps that you can use and all the settings that you can configure to help you accomplish this work style, the one thing that connects all of the tools is that you use is, your keyboard. This means that the more fluent with your keyboard you are and the faster that you can type, the more things and the quicker you can get things done.&lt;/p&gt;</description>
     </item>
     <item>
       <title>From Flat to Fast: The Science of Full‑Travel Keyboards Top Typists Rely On</title>
-      <link>https://nolagmind.com/posts/fourth_post/</link>
+      <link>http://localhost:1313/posts/fourth_post/</link>
       <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://nolagmind.com/posts/fourth_post/</guid>
-      <description>&lt;h3 id=&#34;what-keyboards-can-allow-you-to-type-at-300-wpm&#34;&gt;What keyboards can allow you to type at 300 wpm?&lt;/h3&gt;
-&lt;p&gt;Besides the insane amount of skill and practice that it takes to be able to type that fast, which keyboard you have could effect how fast you can type a lot. This is why all the top typists carefully pick, mod, and use every keyboard that they get.&lt;/p&gt;
-&lt;p&gt;Every mechanical keyboard has three main comments that effect the typing experience: switches, keycaps, and layout.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/fourth_post/</guid>
+      <description>&lt;p&gt;&lt;details &gt;
+  &lt;summary markdown=&#34;span&#34;&gt;Blog Summary - Click to expand&lt;/summary&gt;
+  &lt;p&gt;Why top typists prefer full-travel mechanical keyboards over low-profile ones. Key insights:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Switches&lt;/strong&gt;: Clicky/tactile switches provide feedback that improves speed and accuracy compared to linear switches.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Keycaps&lt;/strong&gt;: Sculpted profiles (OEM/Cherry) help fingers locate keys without looking.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Layout&lt;/strong&gt;: Standard QWERTY and staggered layouts benefit from years of muscle memory.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Low Profile Drawbacks&lt;/strong&gt;: Less feedback, reduced travel distance, and flatter keycaps can hinder rhythm and accuracy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/details&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Perfect AI Prompt Formula: How to Get Exactly What You Want Every Time</title>
-      <link>https://nolagmind.com/posts/third_post/</link>
+      <link>http://localhost:1313/posts/third_post/</link>
       <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://nolagmind.com/posts/third_post/</guid>
-      <description>&lt;h3 id=&#34;why-you-should-take-the-time-to-learn-to-prompt&#34;&gt;Why you should take the time to learn to prompt&lt;/h3&gt;
-&lt;p&gt;When most people are writing a prompt to an LLM they only write a sentence or two. While this is straight forward, it normally leads to generic results that sometimes aren&amp;rsquo;t even helpful.&lt;/p&gt;
-&lt;p&gt;The solution to this is to take the time to write a nice prompt that is catered to your certain use case. When writing a good prompt there is a specific structure to follow, which both makes it easer to start writing the prompt and for the LLM to understand what you want. By following the five-part formula you can ensure that you will always get a response from the AI that is useful for your specific use case.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/third_post/</guid>
+      <description>&lt;p&gt;&lt;details &gt;
+  &lt;summary markdown=&#34;span&#34;&gt;Blog Summary - Click to expand&lt;/summary&gt;
+  &lt;p&gt;Learn a five-part formula to get the best results from AI models. Key points:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Persona&lt;/strong&gt;: Assign a role (e.g., &amp;rsquo;expert coder&amp;rsquo;) to guide the AI&amp;rsquo;s perspective.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Context&lt;/strong&gt;: Provide relevant background to tailor the response.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Task&lt;/strong&gt;: Clearly state what you want the AI to do.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Output Style&lt;/strong&gt;: Define the desired format and tone.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Negatives&lt;/strong&gt;: Specify what to avoid to filter out unwanted content.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/details&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+&lt;h3 id=&#34;why-you-should-take-the-time-to-learn-to-prompt&#34;&gt;Why you should take the time to learn to prompt&lt;/h3&gt;
+&lt;p&gt;When most people are writing a prompt to an LLM they only write a sentence or two. While this is straight forward, it normally leads to generic results that sometimes aren&amp;rsquo;t even helpful.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The No-Click Principle: Why Your Mouse is Slowing You Down (and How to Fix It)</title>
-      <link>https://nolagmind.com/posts/seccond_post/</link>
+      <link>http://localhost:1313/posts/seccond_post/</link>
       <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://nolagmind.com/posts/seccond_post/</guid>
-      <description>&lt;h3 id=&#34;what-is-the-no-click-principle&#34;&gt;What is the no-click principle?&lt;/h3&gt;
-&lt;p&gt;It is the idea that taking your hand of the keyboard to reach for the mouse will significantly reduce your productivity. This is because of the time and context switch costs:&lt;/p&gt;
+      <guid>http://localhost:1313/posts/seccond_post/</guid>
+      <description>&lt;p&gt;&lt;details &gt;
+  &lt;summary markdown=&#34;span&#34;&gt;Blog Summary - Click to expand&lt;/summary&gt;
+  &lt;p&gt;This post introduces the &amp;lsquo;No-Click Principle&amp;rsquo; to boost productivity by minimizing mouse usage. Key takeaways:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;The Time Cost:&lt;/strong&gt; Every reach for the mouse is a few seconds lost.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;The Context Switch Cost:&lt;/strong&gt; More critically, you interrupt your &lt;strong&gt;flow state&lt;/strong&gt;. You have to visually locate and track the cursor, and when you return to the keyboard, you have to mentally and physically reset your typing position.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The Cost of Clicking&lt;/strong&gt;: Reaching for the mouse breaks flow and wastes time.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Speed of Thought&lt;/strong&gt;: Aim to navigate your device as fast as you think using keyboard-only workflows.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tools&lt;/strong&gt;: Apps like Raycast, Homerow, and Vimium enable mouse-free navigation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vim Keybindings&lt;/strong&gt;: Learning Vim keys is a high-leverage skill for efficient text and system navigation.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Even though it might only take a couple seconds to do all the above and then get back to typing, if you add up those few seconds for all the times it happens in a day, week, or month, it can start to become hours of time that you could have otherwise spent working or thinking.&lt;/p&gt;</description>
+&lt;/details&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Welcome to My Blog</title>
-      <link>https://nolagmind.com/posts/first_post/</link>
+      <link>http://localhost:1313/posts/first_post/</link>
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://nolagmind.com/posts/first_post/</guid>
-      <description>&lt;p&gt;Welcome! This is my first post - and a promise. I&amp;rsquo;ll be publishing here every day with small, useful snippets of knowledge.&lt;/p&gt;
-&lt;p&gt;What you’ll find:&lt;/p&gt;
+      <guid>http://localhost:1313/posts/first_post/</guid>
+      <description>&lt;p&gt;&lt;details &gt;
+  &lt;summary markdown=&#34;span&#34;&gt;Blog Summary - Click to expand&lt;/summary&gt;
+  &lt;p&gt;This blog explores productivity, programming, and learning systems. Key topics include:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Pillars: programming, game dev, keyboards/typing, learning systems, and AI.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Programming &amp;amp; Game Dev&lt;/strong&gt;: Insights into building tools, games, and automation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Keyboard Mastery&lt;/strong&gt;: Comparisons, ergonomics, and typing philosophy for speed.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Learning Systems&lt;/strong&gt;: Techniques to master new skills efficiently.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI Workflows&lt;/strong&gt;: How to prompt effectively and use AI as a powerful assistant.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/details&gt;&lt;/p&gt;
+
 &lt;hr&gt;
-&lt;h3 id=&#34;programming&#34;&gt;Programming&lt;/h3&gt;
-&lt;p&gt;I like to build things, from small tools and automation scripts to entire games or course websites. I plan to share the process and ideas that go into making these tools here with you.&lt;/p&gt;
-&lt;h3 id=&#34;game-development&#34;&gt;Game development&lt;/h3&gt;
-&lt;p&gt;I’m currently building two indie games and have always found interest in coding something that I can actually play. So I would like to share that passion with you, weather it is a small update or reworking all the art.&lt;/p&gt;</description>
+&lt;p&gt;Welcome! This is my first post - and a promise. I&amp;rsquo;ll be publishing here every day with small, useful snippets of knowledge.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

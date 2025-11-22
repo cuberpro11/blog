@@ -4,6 +4,16 @@ date: 2025-10-23T00:00:00Z
 draft: false
 ---
 
+{{< collapse summary="Blog Summary - Click to expand" >}}
+Why top typists prefer full-travel mechanical keyboards over low-profile ones. Key insights:
+- **Switches**: Clicky/tactile switches provide feedback that improves speed and accuracy compared to linear switches.
+- **Keycaps**: Sculpted profiles (OEM/Cherry) help fingers locate keys without looking.
+- **Layout**: Standard QWERTY and staggered layouts benefit from years of muscle memory.
+- **Low Profile Drawbacks**: Less feedback, reduced travel distance, and flatter keycaps can hinder rhythm and accuracy.
+{{< /collapse >}}
+
+***
+
 ### What keyboards can allow you to type at 300 wpm?
 
 Besides the insane amount of skill and practice that it takes to be able to type that fast, which keyboard you have could effect how fast you can type a lot. This is why all the top typists carefully pick, mod, and use every keyboard that they get.

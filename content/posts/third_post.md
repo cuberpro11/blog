@@ -4,6 +4,17 @@ date: 2025-10-22T00:00:00Z
 draft: false
 ---
 
+{{< collapse summary="Blog Summary - Click to expand" >}}
+Learn a five-part formula to get the best results from AI models. Key points:
+- **Persona**: Assign a role (e.g., 'expert coder') to guide the AI's perspective.
+- **Context**: Provide relevant background to tailor the response.
+- **Task**: Clearly state what you want the AI to do.
+- **Output Style**: Define the desired format and tone.
+- **Negatives**: Specify what to avoid to filter out unwanted content.
+{{< /collapse >}}
+
+***
+
 ### Why you should take the time to learn to prompt
 
 When most people are writing a prompt to an LLM they only write a sentence or two. While this is straight forward, it normally leads to generic results that sometimes aren't even helpful. 

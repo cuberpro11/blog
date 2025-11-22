@@ -4,12 +4,20 @@ date: 2025-10-20T00:00:00Z
 draft: false
 ---
 
+{{< collapse summary="Blog Summary - Click to expand" >}}
+This blog explores productivity, programming, and learning systems. Key topics include:
+- **Programming & Game Dev**: Insights into building tools, games, and automation.
+- **Keyboard Mastery**: Comparisons, ergonomics, and typing philosophy for speed.
+- **Learning Systems**: Techniques to master new skills efficiently.
+- **AI Workflows**: How to prompt effectively and use AI as a powerful assistant.
+{{< /collapse >}}
+
+***
+
 Welcome! This is my first post - and a promise. I'll be publishing here every day with small, useful snippets of knowledge.
 
 What you’ll find:
 - Pillars: programming, game dev, keyboards/typing, learning systems, and AI.
-
-***
 
 ### Programming
 I like to build things, from small tools and automation scripts to entire games or course websites. I plan to share the process and ideas that go into making these tools here with you.

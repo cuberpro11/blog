@@ -3,6 +3,16 @@ title: My Vision for the Best Note Taking App
 date: 2025-11-06T00:00:00Z
 draft: false
 ---
+
+{{< collapse summary="Blog Summary - Click to expand" >}}
+A critique of existing note apps and a vision for a better tool. Key points:
+- **The Problem**: Current apps like Obsidian and Anytype lack dynamic flexibility or keyboard-centric design.
+- **The Vision**: A fast, keyboard-controlled app where everything is a node.
+- **Features**: Support for mind maps, kanban, and complex checklists within a markdown environment.
+- **Goal**: A fluid, local-first tool that adapts to your thought process.
+{{< /collapse >}}
+
+***
 ### What all other note apps are missing
 
 I have heard about and tried a few note apps, but when one note app gets something right it is missing some other important thing. In order for a note app to be perfect in my eyes, it should be dynamic enough in a way were it can follow my thought process and help me retain, save, or plan the information that I am working with in a organized and searchable way; and I should be able to accomplish all the main actions with only a keyboard.

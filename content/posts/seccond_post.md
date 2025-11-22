@@ -4,6 +4,16 @@ date: 2025-10-21T00:00:00Z
 draft: false
 ---
 
+{{< collapse summary="Blog Summary - Click to expand" >}}
+This post introduces the 'No-Click Principle' to boost productivity by minimizing mouse usage. Key takeaways:
+- **The Cost of Clicking**: Reaching for the mouse breaks flow and wastes time.
+- **Speed of Thought**: Aim to navigate your device as fast as you think using keyboard-only workflows.
+- **Tools**: Apps like Raycast, Homerow, and Vimium enable mouse-free navigation.
+- **Vim Keybindings**: Learning Vim keys is a high-leverage skill for efficient text and system navigation.
+{{< /collapse >}}
+
+***
+
 ### What is the no-click principle?
 
 It is the idea that taking your hand of the keyboard to reach for the mouse will significantly reduce your productivity. This is because of the time and context switch costs:

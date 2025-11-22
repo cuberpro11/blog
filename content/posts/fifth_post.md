@@ -4,6 +4,16 @@ date: 2025-10-24T00:00:00Z
 draft: false
 ---
 
+{{< collapse summary="Blog Summary - Click to expand" >}}
+How to work at the 'speed of thought' using keyboard shortcuts. Key strategies:
+- **Touch Typing**: Improving WPM reduces cognitive load and reliance on the mouse.
+- **Workflow Efficiency**: Minimize errors and posture issues to maintain flow.
+- **Essential Shortcuts**: A curated list of system, file management, and text editing shortcuts for Mac.
+- **Hidden Gems**: Advanced shortcuts for screenshots, window management, and system control.
+{{< /collapse >}}
+
+***
+
 ### Why typing speed matters everywhere
 
 I mentioned the idea of working at the speed of thought, where you can think of what you need to do and it can just happen, almost like your laptop is controlled by your mind. Besides all the apps that you can use and all the settings that you can configure to help you accomplish this work style, the one thing that connects all of the tools is that you use is, your keyboard. This means that the more fluent with your keyboard you are and the faster that you can type, the more things and the quicker you can get things done.
